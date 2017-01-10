@@ -17,5 +17,4 @@ primary key (`id`),
 foreign key (`user_country_id`) references countries(`id`) ON UPDATE CASCADE
 );
 
-);
 
