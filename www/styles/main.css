@@ -1,0 +1,42 @@
+#content, .error{
+    margin: auto;
+    width: 50%;
+    
+    
+}
+
+
+#form_input{
+    border:solid 2px #CCCCCC;
+    margin: auto;
+    background: #A2C4C9;
+    padding: 10px;
+    padding-bottom: 15px;
+}
+
+#form_input #title{
+    color: green;
+    text-align: center;
+}
+
+#form_input form table{
+    margin: auto;
+}
+
+#table_su{
+    margin: auto;
+   background: #A2C4C9;
+    width: 80%;
+    border-top:solid 2px #CCCCCC;
+    border-left:solid 2px #CCCCCC;
+}
+
+#table_su td{
+    
+    border-bottom:solid 2px #CCCCCC;
+    border-right:solid 2px #CCCCCC;
+}
+
+.error{ 
+    color: #B20000;
+}
