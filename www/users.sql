@@ -13,6 +13,5 @@ CREATE TABLE IF NOT EXISTS users (
 `user_mail` varchar(255),
 `user_country_id` int(10) unsigned, 
 primary key (`id`),
-foreign key (`user_country_id`) references countries(`id`) ON
-UPDATE CASCADE
+foreign key (`user_country_id`) references countries(`id`) ON UPDATE CASCADE
 );
