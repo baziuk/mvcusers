@@ -13,11 +13,9 @@ CREATE TABLE IF NOT EXISTS users (
 `user_email` varchar(255),
 `user_country_id` int(10) unsigned, 
 primary key (`id`),
-<<<<<<< HEAD
+
 foreign key (`user_country_id`) references countries(`id`) ON UPDATE CASCADE
 );
-=======
-foreign key (`user_country_id`) references countries(`id`) ON
-UPDATE CASCADE
+
 );
->>>>>>> origin/master
+
